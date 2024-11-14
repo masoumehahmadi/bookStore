@@ -1,0 +1,38 @@
+.homeContainer{
+
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+.homeWrapper{
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  border-radius: 10px;
+
+}
+.welcomeTxt{
+font-size: 25px;
+font-weight: 600;
+color: #37474F;
+margin-bottom: 45px;
+}
+.registerTxt{
+font-size: 20px;
+margin-bottom: 30px;
+color: #616161;
+
+}
+.registerBtn{
+  padding: 8px 25px;
+  background: linear-gradient(135deg,#64B5F6, #AB47BC);
+  font-weight: 400;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}

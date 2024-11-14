@@ -1,0 +1,71 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 93.7vh;
+  .boxInput{
+  width: 600px;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  flex-direction: column;
+    padding: 25px 50px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    background-color: #fff;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .titlePage{
+    margin-bottom: 30px;
+    font-size: 25px;
+   font-weight: bold;
+    text-align: center;
+    color: #37474F;
+  }
+}
+.formStyle{
+  display: flex;
+  flex-direction: column;
+  .lableStyle{
+    font-size: 12px;
+    font-weight:500;
+    margin: 8px 0;
+    color: #616161;
+    }
+  .submitBtn{
+    margin: 40px 0;
+    padding: 8px;
+    background: linear-gradient(135deg,#64B5F6, #AB47BC);
+    font-weight: 400;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  }
+  .inputStyle{
+    width: 500px;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    box-shadow: 0 0 3px rgba(127, 122, 122, 0.7);
+
+
+  }
+  .inputStyle::placeholder{
+    font-size: 12px;
+    color: #c7d1d5;
+  }
+}
+.backPage{
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #1A237E;
+}
+.errTxt{
+  display: inline;
+  font-size: 10px;
+  color: red;
+}

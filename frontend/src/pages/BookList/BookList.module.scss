@@ -1,0 +1,32 @@
+.Container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Wrapper{
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  margin-top: 25px;
+  border-radius: 10px; 
+}
+.bookTable{
+  border-collapse: collapse;
+}
+.bookTable th,
+.bookTable td{
+border: 1px solid #ccc;
+padding: 8px;
+text-align: center;
+
+}
+.backPage{
+  margin: 20px 0;
+  font-size: 15px;
+  font-weight: 500;
+  color: #1A237E;
+}

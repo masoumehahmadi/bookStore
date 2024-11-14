@@ -1,0 +1,36 @@
+.Container{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  }
+  .Wrapper{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 10px;
+  
+  }
+  .Err{
+  font-size: 25px;
+  font-weight: 600;
+  color: #37474F;
+  margin-bottom: 40px;
+  }
+  .ErrTxt{
+    font-size: 20px;
+    color: #616161;
+    margin-bottom: 25px;
+    }
+    .submitBtn{
+      padding: 8px;
+      background: linear-gradient(135deg,#64B5F6, #AB47BC);
+      font-weight: 300;
+      color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }

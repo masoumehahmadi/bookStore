@@ -1,0 +1,23 @@
+.headerContainer{
+  width: 100%;
+  background: #fff;
+  padding: 12px;
+  text-align: center;
+  color:#68768A;
+  line-height: bold;
+  font-size: 18px;
+  
+}
+.headerWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.linkApi{
+ display: flex;
+ gap: 25px;
+}
+.logOut{
+  list-style-type: none;
+
+}

@@ -1,0 +1,38 @@
+
+
+.Container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.Containerinf{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ContainerInfo{
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  margin-top: 15px;
+  border-radius: 10px; 
+  line-height: 2rem;
+  color: #585757;
+
+}
+.info{
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.backPage{
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #1A237E;
+}
